@@ -1,0 +1,20 @@
+Guess the Number Program  (What and why i have used.)
+
+1. Header Files
+#include <iostream> - Enables input/output (cin, cout) operations.
+#include <cstdlib> - Includes functions like rand(), srand() for random numbers.
+#include <ctime> - Includes time() for generating different random seeds.
+
+2. Main Function - Entry point of the program. "int" return type indicates the program ends by returning an integer.
+
+3. Seeding the Random Number Generator
+time(nullptr) - Returns current time in seconds.
+static_cast<unsigned int> - Converts time to correct type for srand.
+srand(...) - Seeds the random number generator so rand() gives different results each run.
+
+4. Generate Random Number
+rand() - Generates a random integer.
+% 100 - Restricts it to range 0–99.
++ 1 - Shifts range to 1–100.
+secretNumber - Stores the random number to be guessed.
+
