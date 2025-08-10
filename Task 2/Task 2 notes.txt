@@ -1,0 +1,22 @@
+
+Inputs: The program takes two numbers and an arithmetic operation symbol from the user.
+Switch Statement: Determines which operation to perform based on the entered operator.
+Division Check: Prevents division by zero.
+Output: Displays the computed result.
+
+
+1. #include – Used to include a library before compiling the program.
+2. <iostream> – Library that provides input (cin) and output (cout) functions.
+3. using namespace std; – Allows using standard library names without writing std:: before them.
+4. int – Data type for integer values, here used as the return type of main.
+5. double – Data type for decimal or floating-point numbers, used for storing numbers and results.
+6. char – Data type for storing a single character, used for the operator symbol.
+7. cin – Standard input stream used to take values from the user.
+8. cout – Standard output stream used to display messages and results.
+9. switch – Used to choose between multiple actions based on the value of a variable.
+10. case – Defines a specific value to match inside a switch statement.
+11. break – Exits the current case in a switch to avoid running into the next case.
+12. default – Executes when no case matches in a switch statement.
+13. if – Used to check a condition and execute code if the condition is true.
+14. else – Executes code when the if condition is false.
+15. return – Ends the function and returns a value to the calling process.
