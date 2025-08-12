@@ -1,0 +1,7 @@
+Here’s the list of all functions used in the program :
+
+1. addTask(vector<Task> &tasks) – Takes user input for a new task description and adds it to the task list.
+2. viewTasks(const vector<Task> &tasks) – Displays all tasks along with their completion status.
+3. markCompleted(vector<Task> &tasks) – Marks a specific task as completed based on user-given task number.
+4. removeTask(vector<Task> &tasks) – Removes a specific task from the list using its task number.
+5. main() – Displays the menu, handles user choices, and calls the above functions accordingly.
